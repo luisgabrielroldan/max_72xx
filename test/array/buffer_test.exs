@@ -30,8 +30,8 @@ defmodule Max72XXTest.Array.BufferTest do
     assert %Buffer{
              array_size: 2,
              data: %{
-               0 => <<128, 64, 32, 16, 0, 0, 0, 0>>,
-               1 => <<128, 64, 32, 16, 0, 0, 0, 0>>
+               0 => <<0, 64, 32, 16, 0, 0, 0, 0>>,
+               1 => <<0, 64, 32, 16, 0, 0, 0, 0>>
              }
            } = buffer
   end
